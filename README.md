@@ -1,4 +1,4 @@
-# 🚨 Campus Safety Alert System
+# Campus Safety Alert System
 
 ### Real-Time Emergency Response & Student Safety Platform
 
@@ -8,7 +8,7 @@ Built with **Python, FastAPI, Flutter, PostgreSQL, Firebase Cloud Messaging, and
 
 ---
 
-# 📖 Overview
+#  Overview
 
 Campus safety is a critical component of student success and well-being. Universities often face challenges in rapidly communicating emergencies, tracking incidents, and providing students with real-time safety information.
 
@@ -18,7 +18,7 @@ The platform combines mobile technology, geolocation services, push notification
 
 ---
 
-# 🎯 Key Features
+# Key Features
 
 * Real-Time Emergency Alerts
 *  GPS-Based Location Awareness
@@ -35,7 +35,7 @@ The platform combines mobile technology, geolocation services, push notification
 
 ---
 
-# 🛠 Technology Stack
+# Technology Stack
 
 ### Backend
 
