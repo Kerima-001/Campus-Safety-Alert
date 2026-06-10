@@ -104,8 +104,3 @@ campus-safety-alert-system/
 
 ---
 
-## Author
-
-**Kerima Mussa** — [GitHub](https://github.com/Kerima-001) · [LinkedIn](https://linkedin.com/in/kerima-mussa-a72735277)
-
-> *Building technology that improves safety, accessibility, and real-world decision making.*
