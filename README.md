@@ -63,14 +63,14 @@ Each alert includes:
 
 ---
 
-## 📍 Location-Aware Notifications
+##  Location-Aware Notifications
 
 The platform uses GPS technology to provide personalized alerts based on a user's location.
 
 ### Example
 
 ```text
-🚨Suspicious Activity Reported
+Suspicious Activity Reported
 
 Location:
 Swenson Hall
