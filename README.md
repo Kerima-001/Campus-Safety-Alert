@@ -8,7 +8,7 @@ A full-stack emergency response platform that connects students, faculty, and ca
 
 ## Overview
 
-Campus emergencies demand immediate communication. Traditional methods — mass emails, loudspeakers, word of mouth — are too slow. This system replaces them with a mobile-first platform where alerts are geofenced to your location, incidents can be reported with photos and GPS coordinates in seconds, and security personnel have a live operations dashboard at their fingertips.
+Campus emergencies demand immediate communication. Traditional methods — mass emails, loudspeakers, word of mouth, are too slow. This system replaces them with a mobile-first platform where alerts are geofenced to your location, incidents can be reported with photos and GPS coordinates in seconds, and security personnel have a live operations dashboard at their fingertips.
 
 ---
 
@@ -21,7 +21,7 @@ Security dispatches alerts instantly across campus. Each notification includes t
 Alerts are delivered based on proximity. A user 0.2 miles from Swenson Hall gets a targeted notification with relevant instructions. Users on the other side of campus do not. This reduces noise and improves response.
 
 **Mobile Incident Reporting**
-Students submit reports directly from the app — theft, harassment, suspicious activity, vandalism, medical emergencies, facility issues, and safety hazards. Each report captures a description, GPS coordinates, photos, severity level, and timestamp.
+Students submit reports directly from the app theft, harassment, suspicious activity, vandalism, medical emergencies, facility issues, and safety hazards. Each report captures a description, GPS coordinates, photos, severity level, and timestamp.
 
 **One-Tap SOS System**
 
