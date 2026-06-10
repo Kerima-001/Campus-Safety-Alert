@@ -1,349 +1,111 @@
-#  Campus Safety Alert System
+# Campus Safety Alert System
 
-### Protecting Students Through Real-Time Safety Intelligence
+**Protecting students through real-time safety intelligence.**
 
-A full-stack emergency response and campus safety platform designed to improve communication, incident reporting, location awareness, and emergency response coordination across university campuses.
-
-The system enables students, faculty, staff, and campus security to receive real-time alerts, report incidents, share locations, and access critical safety resources through a centralized mobile and web platform.
+A full-stack emergency response platform that connects students, faculty, and campus security through instant alerts, incident reporting, and live location awareness. Built with Flutter, FastAPI, PostgreSQL, and Firebase.
 
 ---
 
-## Project Highlights
+## Overview
 
-*  Real-Time Emergency Alerts
-*  Location-Aware Notifications
-*  One-Tap SOS Emergency System
-*  Mobile Incident Reporting
-* Interactive Campus Safety Map
-* Campus Security Dashboard
-* Image-Based Incident Evidence
-* Push Notifications
-*  Safety Analytics & Reporting
-*  Secure Authentication & Access Control
-* Scalable Cloud-Ready Architecture
+Campus emergencies demand immediate communication. Traditional methods — mass emails, loudspeakers, word of mouth — are too slow. This system replaces them with a mobile-first platform where alerts are geofenced to your location, incidents can be reported with photos and GPS coordinates in seconds, and security personnel have a live operations dashboard at their fingertips.
 
 ---
 
-##  Overview
+## Core Features
 
-Campus emergencies require immediate communication and rapid response. Traditional communication methods often delay critical information, leaving students unaware of nearby incidents.
+**Real-Time Emergency Alerts**
+Security dispatches alerts instantly across campus. Each notification includes the incident type, severity level, GPS location, safety instructions, and emergency contacts. Supported alert types include active threats, medical emergencies, suspicious activity, severe weather, fire alarms, missing persons, and campus closures.
 
-The Campus Safety Alert System provides a modern solution by combining geolocation services, mobile technology, emergency notifications, and centralized incident management into a single platform.
+**Location-Aware Notifications**
+Alerts are delivered based on proximity. A user 0.2 miles from Swenson Hall gets a targeted notification with relevant instructions. Users on the other side of campus do not. This reduces noise and improves response.
 
-Students can quickly report suspicious activity, receive localized emergency alerts, access campus safety resources, and share their location during emergencies. Meanwhile, campus security personnel gain access to real-time incident monitoring, analytics, and response coordination tools.
+**Mobile Incident Reporting**
+Students submit reports directly from the app — theft, harassment, suspicious activity, vandalism, medical emergencies, facility issues, and safety hazards. Each report captures a description, GPS coordinates, photos, severity level, and timestamp.
 
----
+**One-Tap SOS System**
 
-##  Emergency Alert System
+| Action | Response |
+|---|---|
+| Single tap | Notify campus security |
+| Double tap | Call emergency services |
+| Long press | Share live location |
 
-Security personnel can instantly distribute emergency notifications across campus.
+**Interactive Campus Map**
+A live map surfaces active incidents, safe zones, emergency phones, security offices, evacuation routes, residence halls, and medical stations.
 
-### Supported Alert Types
+**Security Dashboard**
+Operations staff see open cases, active alerts, average response times, high-risk areas, and real-time incident maps. Built for fast triage, not just reporting.
 
-* Active Threat Alerts
-* Suspicious Activity Reports
-* Medical Emergencies
-* Fire Alarms
-* Severe Weather Warnings
-* Campus Closures
-* Missing Person Alerts
-* Safety Advisories
-* Traffic & Road Closures
-
-### Alert Information
-
-Each alert includes:
-
-* Incident Type
-* Severity Level
-* Timestamp
-* GPS Location
-* Safety Instructions
-* Emergency Contact Information
+**Analytics and Reporting**
+Incident frequency, monthly trends, response time tracking, and alert effectiveness metrics feed daily, monthly, and annual safety reports.
 
 ---
 
-##  Location-Aware Notifications
+## Tech Stack
 
-The platform uses GPS technology to provide personalized alerts based on a user's location.
-
-### Example
-
-```text
-Suspicious Activity Reported
-
-Location:
-Swenson Hall
-
-Distance:
-0.2 Miles Away
-
-Instructions:
-Avoid the area and follow campus security guidance.
-```
-
-### Benefits
-
-* Improved alert relevance
-* Faster situational awareness
-* Reduced notification fatigue
-* Better emergency communication
+| Layer | Tools |
+|---|---|
+| Backend | Python, FastAPI, SQLAlchemy |
+| Database | PostgreSQL |
+| Mobile | Flutter, Dart |
+| Push Notifications | Firebase Cloud Messaging |
+| Maps | Google Maps API |
 
 ---
 
-##  Incident Reporting
-
-Students can submit incidents directly from the mobile application.
-
-### Reporting Categories
-
-* Theft
-* Harassment
-* Suspicious Activity
-* Vandalism
-* Facility Issues
-* Medical Emergencies
-* Safety Hazards
-
-### Report Details
-
-Users may submit:
-
-* Description
-* GPS Coordinates
-* Images
-* Severity Level
-* Date & Time
-* Additional Notes
-
----
-
-##  SOS Emergency System
-
-Provides immediate access to emergency assistance.
-
-| Action     | Response                |
-| ---------- | ----------------------- |
-| Single Tap | Notify Campus Security  |
-| Double Tap | Call Emergency Services |
-| Long Press | Share Live Location     |
-
-### Emergency Features
-
-* Live Location Sharing
-* Emergency Contact Notification
-* Security Dispatch Notification
-* Real-Time Tracking
-
----
-
-##  Campus Security Dashboard
-
-Provides security personnel with operational awareness and incident management capabilities.
-
-### Dashboard Features
-
-* Active Incidents
-* Open Investigations
-* Emergency Alerts
-* Incident Maps
-* Safety Analytics
-* Response Monitoring
-
-### Security Metrics
-
-* Open Cases
-* Resolved Incidents
-* Average Response Time
-* High-Risk Areas
-* Alert Distribution Statistics
-
----
-
-## 🗺 Interactive Campus Map
-
-Visual representation of campus safety information.
-
-### Map Layers
-
-* Active Incidents
-* Safe Zones
-* Emergency Phones
-* Security Offices
-* Residence Halls
-* Evacuation Routes
-* Medical Stations
-
----
-
-##  Analytics & Reporting
-
-Transform incident data into actionable insights.
-
-### Analytics Dashboard
-
-* Incident Frequency
-* Monthly Trends
-* High-Risk Areas
-* Response Times
-* Safety Performance Metrics
-* Alert Effectiveness
-
-### Reports
-
-* Daily Incident Reports
-* Monthly Safety Reports
-* Annual Security Summaries
-* Emergency Response Reports
-
----
-
-## System Architecture
-
-```text
-Campus Safety Alert System
-
-├── Mobile Application (Flutter)
-│
-├── FastAPI Backend
-│
-├── PostgreSQL Database
-│
-├── Firebase Cloud Messaging
-│
-├── GPS Location Services
-│
-├── Incident Management Engine
-│
-├── Emergency Alert Distribution
-│
-├── Security Dashboard
-│
-└── Analytics & Reporting
-```
-
----
-
-## Technology Stack
-
-### Backend
-
-* [Python](https://www.python.org/)
-* [FastAPI](https://fastapi.tiangolo.com/)
-* [SQLAlchemy](https://www.sqlalchemy.org/)
-* [PostgreSQL](https://www.postgresql.org/)
-
-### Mobile Development
-
-* [Flutter](https://flutter.dev/)
-* [Dart](https://dart.dev/)
-
-### Cloud Services
-
-* [Firebase Cloud Messaging](https://firebase.google.com/)
-* [Google Maps API](https://developers.google.com/maps)
-
-### Development Tools
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-
----
-
-## Installation
-
-### Clone Repository
+## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/campus-safety-alert-system.git
-```
-
-### Navigate to Project
-
-```bash
+# Clone the repo
+git clone https://github.com/Kerima-001/campus-safety-alert-system.git
 cd campus-safety-alert-system
-```
 
-### Create Virtual Environment
-
-```bash
+# Set up Python environment
 python -m venv venv
-```
+venv\Scripts\activate          # Windows
+source venv/bin/activate       # macOS / Linux
 
-### Activate Environment
+# Install backend dependencies
+pip install fastapi uvicorn sqlalchemy psycopg2-binary
 
-```bash
-venv\Scripts\activate
-```
+# Start the backend
+python -m uvicorn backend.main:app --reload
 
-### Install Dependencies
-
-```bash
-pip install fastapi uvicorn sqlalchemy
-```
-
-### Run Backend
-
-```bash
-python -m uvicorn main:app --reload
-```
-
-### Run Mobile Application
-
-```bash
+# Run the mobile app
 flutter pub get
 flutter run
 ```
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```text
-Campus_Safety_Alert_System/
-
-├── backend/
-│   ├── main.py
-│   ├── database.py
-│   ├── models.py
-│   ├── auth.py
-│   │
-│   ├── routes/
-│   │   ├── alerts.py
-│   │   ├── incidents.py
-│   │   ├── emergency.py
-│   │   └── users.py
-│
-├── mobile/
-│   ├── lib/
-│   │   ├── screens/
-│   │   ├── services/
-│   │   ├── widgets/
-│   │   └── models/
-│
-└── assets/
+```
+campus-safety-alert-system/
+    backend/
+        main.py
+        database.py
+        models.py
+        auth.py
+        routes/
+            alerts.py
+            incidents.py
+            emergency.py
+            users.py
+    mobile/
+        lib/
+            screens/
+            services/
+            widgets/
+            models/
+    assets/
 ```
 
 ---
 
-## Skills Demonstrated
+## Author
 
-* Software Engineering
-* Full-Stack Development
-* Mobile Application Development
-* REST API Development
-* Database Design
-* Systems Architecture
-* Real-Time Notification Systems
-* Geolocation Services
-* Cloud Integration
-* Security-Focused Development
-* Data Analytics
-* Enterprise Application Design
+**Kerima Mussa** — [GitHub](https://github.com/Kerima-001) · [LinkedIn](https://linkedin.com/in/kerima-mussa-a72735277)
 
----
-
-
-
-*Building technology that improves safety, accessibility, and real-world decision making.*
+> *Building technology that improves safety, accessibility, and real-world decision making.*
